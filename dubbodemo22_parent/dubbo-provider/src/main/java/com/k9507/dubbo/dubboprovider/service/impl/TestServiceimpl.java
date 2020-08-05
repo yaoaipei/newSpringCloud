@@ -1,7 +1,7 @@
 package com.k9507.dubbo.dubboprovider.service.impl;
 
 import com.alibaba.dubbo.config.annotation.Service;
-import com.k9507.dubbo.dubboprovider.service.TestService;
+import com.k9507.dubbo.service.TestService;
 import org.springframework.stereotype.Component;
 
 
@@ -13,5 +13,10 @@ public class TestServiceimpl implements TestService {
     @Override
     public String getHw() {
         return "helloword";
+    }
+
+    @Override
+    public String getHw2() {
+        return "helloword2";
     }
 }

@@ -2,7 +2,7 @@ package com.k9507.dubbo.dubbocomsumer.controller;
 
 
 import com.alibaba.dubbo.config.annotation.Reference;
-import com.k9507.dubbo.dubboprovider.service.TestService;
+import com.k9507.dubbo.service.TestService;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
